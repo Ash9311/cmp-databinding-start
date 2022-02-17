@@ -1,5 +1,10 @@
 <div class="container">
- 
-  <hr>
+ <app-cock-pit></app-cock-pit>
 
+  <hr>
+  <div class="row">
+    <div class="col-xs-12">
+  <app-server-element *ngFor="let serverElement of serverElements"></app-server-element>
+  </div>
+  </div>
 </div>
